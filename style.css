@@ -1,0 +1,48 @@
+.wid{
+    width: auto;
+    margin: auto;
+    font-family: "Arimo", sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: #575757;
+}
+.navigation-1{
+    display: flex;
+    gap: 20px;
+}
+.navigation-2{
+   border-radius: 10px;
+    background-color: rgb(3, 91, 222);
+    color: aliceblue;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+}
+.hero{
+    background-image: url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+padding-top: 150px;
+}
+
+#abc{
+    font-size: 50px;
+}
+
+.hero-section{
+    color: #FFFFFF;
+    
+    padding-inline: 220px;
+
+}
+.hero button{
+margin-top: 230px;
+}
