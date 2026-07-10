@@ -1,5 +1,5 @@
 .wid {
-    /* width: fit-content; */
+    width: fit-content;
     margin: auto;
     font-family: "Arimo", sans-serif;
 }
@@ -158,6 +158,7 @@
     margin-inline: 300px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 
 }
 
@@ -236,3 +237,21 @@
 }
 
 /* secure your spot(pricing) section end */
+
+    /*  Footer section start */
+.foot{
+    margin-top: 50PX;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+        background-color: #575757;
+
+}
+.end{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+     /*  Footer section end */
