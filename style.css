@@ -1,5 +1,5 @@
 .wid {
-    width: fit-content;
+    /* width: fit-content; */
     margin: auto;
     font-family: "Arimo", sans-serif;
 }
@@ -94,6 +94,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
+     width: fit-content;
     border: 1px solid black;
     padding-left: 0px;
 
@@ -104,6 +105,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
+     width: fit-content;
     border: 1px solid black;
 }
 
@@ -112,6 +114,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
+    width: fit-content;
     border: 1px solid black;
 }
 
@@ -120,6 +123,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
+     width: fit-content;
     border: 1px solid black;
 }
 
@@ -195,6 +199,7 @@
     background-color: #FFFFFF;
     color: rgb(137, 161, 240);
     border-color: rgb(137, 161, 240);
+    cursor: pointer;
 }
 
 .btn2 {
@@ -203,6 +208,7 @@
     border-radius: 10px;
     background-color: rgb(137, 161, 240);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .btn3 {
@@ -210,6 +216,7 @@
     padding: 15px 100px;
     border-radius: 10px;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .spotlight1 {
