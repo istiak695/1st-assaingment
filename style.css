@@ -1,48 +1,149 @@
-.wid{
-    width: auto;
+.wid {
+    width: fit-content;
     margin: auto;
     font-family: "Arimo", sans-serif;
 }
 
-.navigation{
+/* <!-- Navbar section start --> */
+
+.navigation {
     display: flex;
     justify-content: space-between;
     margin: 40px;
     color: #575757;
 }
-.navigation-1{
+
+.navigation-1 {
     display: flex;
     gap: 20px;
 }
-.navigation-2{
-   border-radius: 10px;
+
+.navigation-2 {
+    border-radius: 10px;
     background-color: rgb(3, 91, 222);
     color: aliceblue;
     padding: 10px 40px;
     border: none;
     cursor: pointer;
 }
-.hero{
+
+/* <!-- Navbar section stop --> */
+
+/* <!-- Banner (Hero) section start --> */
+
+.hero {
     background-image: url(assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 640px;
     color: white;
     text-align: center;
-padding-top: 150px;
+    padding-top: 150px;
 }
 
-#abc{
+#abc {
     font-size: 50px;
 }
 
-.hero-section{
+.hero-section {
     color: #FFFFFF;
-    
+
     padding-inline: 220px;
 
 }
-.hero button{
-margin-top: 230px;
+
+.hero button {
+    margin-top: 350px;
 }
+
+/* <!-- Banner (Hero) section stop --> */
+
+/* <!-- meet the speakers section start --> */
+
+
+.meet {
+margin: 10px 200px;
+}
+.meet header{
+ text-align: center;
+ font-size: 50px;
+ margin-top: 50px;
+ font-weight: bold;
+}
+
+.meet-the {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "one two"
+        "three four";
+    object-fit: cover;
+    grid-auto-rows: 400px;
+    gap: 70px ;
+    margin: auto;
+    margin-top: 20px;
+    row-gap: 110px;
+    
+}
+
+.box1 {
+
+    grid-area: one;
+    background-color: rgb(252, 252, 246);
+    border-radius: 10px 10px;
+height: fit-content;
+border: 1px solid  black;
+padding-left: 0px;
+}
+
+.box2 {
+    grid-area: two;
+     background-color: rgb(252, 252, 246);
+    border-radius: 10px 10px;
+height: fit-content;
+border: 1px solid  black;
+}
+
+.box3 {
+    grid-area: three;
+     background-color: rgb(252, 252, 246);
+    border-radius: 10px 10px;
+height: fit-content;
+border: 1px solid  black;
+}
+
+.box4 {
+    grid-area: four;
+     background-color: rgb(252, 252, 246);
+    border-radius: 10px 10px;
+height: fit-content;
+border: 1px solid  black;
+}
+
+.common{
+    color: blue;
+}
+.box-in{
+    padding-left: 20px;
+}
+
+
+/* <!-- meet the speakers section stop --> */
+
+
+/* secure your spot(pricing) section start */
+
+.secure{
+    margin-top: 300px;
+}
+.secure header{
+    font-size: 50px;
+    font-weight: bold;
+}
+.secure{
+    text-align: center;
+}
+
+
+/* secure your spot(pricing) section stop */
