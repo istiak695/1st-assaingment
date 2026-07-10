@@ -63,13 +63,14 @@
 
 
 .meet {
-margin: 10px 200px;
+    margin: 10px 200px;
 }
-.meet header{
- text-align: center;
- font-size: 50px;
- margin-top: 50px;
- font-weight: bold;
+
+.meet header {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 .meet-the {
@@ -80,11 +81,11 @@ margin: 10px 200px;
         "three four";
     object-fit: cover;
     grid-auto-rows: 400px;
-    gap: 70px ;
+    gap: 70px;
     margin: auto;
     margin-top: 20px;
     row-gap: 110px;
-    
+
 }
 
 .box1 {
@@ -92,39 +93,41 @@ margin: 10px 200px;
     grid-area: one;
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
-height: fit-content;
-border: 1px solid  black;
-padding-left: 0px;
+    height: fit-content;
+    border: 1px solid black;
+    padding-left: 0px;
+
 }
 
 .box2 {
     grid-area: two;
-     background-color: rgb(252, 252, 246);
+    background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
-height: fit-content;
-border: 1px solid  black;
+    height: fit-content;
+    border: 1px solid black;
 }
 
 .box3 {
     grid-area: three;
-     background-color: rgb(252, 252, 246);
+    background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
-height: fit-content;
-border: 1px solid  black;
+    height: fit-content;
+    border: 1px solid black;
 }
 
 .box4 {
     grid-area: four;
-     background-color: rgb(252, 252, 246);
+    background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
-height: fit-content;
-border: 1px solid  black;
+    height: fit-content;
+    border: 1px solid black;
 }
 
-.common{
+.common {
     color: blue;
 }
-.box-in{
+
+.box-in {
     padding-left: 20px;
 }
 
@@ -134,16 +137,95 @@ border: 1px solid  black;
 
 /* secure your spot(pricing) section start */
 
-.secure{
+.secure {
     margin-top: 300px;
 }
-.secure header{
+
+.secure header {
     font-size: 50px;
     font-weight: bold;
 }
-.secure{
+
+.secure {
     text-align: center;
 }
 
+.spot {
+    margin-inline: 300px;
+    display: flex;
+    justify-content: space-between;
 
-/* secure your spot(pricing) section stop */
+}
+
+.common2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.spot1 {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.spot2 {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.911);
+    
+}
+.spot2-p{
+     font-size: 30px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.spot3 {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgb(241, 235, 235);
+}
+
+.btn1 {
+    margin-top: 40px;
+    padding: 15px 100px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: rgb(137, 161, 240);
+    border-color: rgb(137, 161, 240);
+}
+
+.btn2 {
+    margin-top: 40px;
+    padding: 15px 100px;
+    border-radius: 10px;
+    background-color: rgb(137, 161, 240);
+    color: #FFFFFF;
+}
+
+.btn3 {
+      margin-top: 40px;
+    padding: 15px 100px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.spotlight1 {
+    margin-inline: 20px;
+
+}
+.spotlight2{
+        margin-inline: 20px;
+        color: rgb(89, 89, 194);
+}
+.person{
+    color: #a7a7ab;
+}
+.spotlight3{
+        margin-inline: 20px;
+
+}
+
+/* secure your spot(pricing) section end */
