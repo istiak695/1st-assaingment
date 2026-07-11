@@ -1,5 +1,8 @@
+
+
 .wid {
     width: fit-content;
+     padding-inline: 0px;
     margin: auto;
     font-family: "Arimo", sans-serif;
 }
@@ -94,7 +97,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
-     width: fit-content;
+    width: fit-content;
     border: 1px solid black;
     padding-left: 0px;
 
@@ -105,7 +108,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
-     width: fit-content;
+    width: fit-content;
     border: 1px solid black;
 }
 
@@ -123,7 +126,7 @@
     background-color: rgb(252, 252, 246);
     border-radius: 10px 10px;
     height: fit-content;
-     width: fit-content;
+    width: fit-content;
     border: 1px solid black;
 }
 
@@ -131,9 +134,6 @@
     color: blue;
 }
 
-.box-in {
-    padding-left: 20px;
-}
 
 
 /* <!-- meet the speakers section stop --> */
@@ -179,13 +179,15 @@
     border-radius: 10px;
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.911);
-    
+
 }
-.spot2-p{
-     font-size: 30px;
+
+.spot2-p {
+    font-size: 30px;
     font-weight: bolder;
     color: #FFFFFF;
 }
+
 .spot3 {
     border: 1px solid;
     border-radius: 10px;
@@ -213,45 +215,85 @@
 }
 
 .btn3 {
-      margin-top: 40px;
+    margin-top: 40px;
     padding: 15px 100px;
     border-radius: 10px;
     background-color: #FFFFFF;
     cursor: pointer;
 }
 
-.spotlight1 {
-    margin-inline: 20px;
 
+
+.spotlight2 {
+    color: rgb(89, 89, 194);
 }
-.spotlight2{
-        margin-inline: 20px;
-        color: rgb(89, 89, 194);
-}
-.person{
+
+.person {
     color: #a7a7ab;
 }
-.spotlight3{
-        margin-inline: 20px;
 
-}
+
 
 /* secure your spot(pricing) section end */
 
-    /*  Footer section start */
-.foot{
+
+/* Missing section start */
+.sponsors {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(234, 232, 230);
+    margin-inline: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+
+}
+.sponsors h1{
+    font-size: 50px;
+}
+.faq{
+    font-size: 40px;
+    margin: 50px;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: rgb(234, 232, 230);
+}
+.faq1{
+padding: 40px;
+}
+.faq textarea{
+    padding: 40px 300px;
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: #e6f8f5;
+    cursor: auto;
+    background: ;
+}
+
+/* Missing section end */
+
+
+/*  Footer section start */
+.foot {
     margin-top: 50PX;
     display: flex;
     justify-content: space-between;
 }
-.footer{
-        background-color: #575757;
 
+.footer {
+    background-color: #5d5b5b;
+   
 }
-.end{
+
+.end {
     color: whitesmoke;
     font-size: 20px;
     margin-top: 20px;
 }
 
-     /*  Footer section end */
+/*  Footer section end */
