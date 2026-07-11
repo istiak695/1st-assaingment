@@ -283,10 +283,14 @@ padding: 40px;
     margin-top: 50PX;
     display: flex;
     justify-content: space-between;
+    padding: 40px;
+    
 }
 
 .footer {
     background-color: #5d5b5b;
+    border: none;
+    border-radius: 20px;
    
 }
 
@@ -294,6 +298,7 @@ padding: 40px;
     color: whitesmoke;
     font-size: 20px;
     margin-top: 20px;
+    padding-left: 50px;
 }
 
 /*  Footer section end */
